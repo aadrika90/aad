@@ -257,8 +257,7 @@ int main() {
  #include <stdio.h>
  int main()
  {
- f
- loat principal, rate, time, interest;
+ float principal, rate, time, interest;
  printf("Enter Principal amount: ");
  scanf("%f", &principal);
  printf("Enter Rate of interest");
@@ -335,10 +334,8 @@ int main() {
 int main() 
 {
  int r;
- f
- loat a;
- f
- loat b;
+ float a;
+ float b;
  printf("Enter radius: \n");
  scanf("%d", &r);
  a=3.14*r*r;
@@ -381,4 +378,5 @@ int main()
  printf("%f is average of marks of 3 subjects", avg);
  return 0;
  }
+
 
